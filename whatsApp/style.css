@@ -1,0 +1,232 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-seri;
+    font-size: 16px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration:none;
+}
+
+i{
+    margin-right:4px;
+}
+.nav-bar{
+    width:100%;
+   height:75px;
+   padding:50px;
+    background-color:#128c7e;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.nav-items{
+    display:flex;
+    justify-content:space-around;
+    width:90%;
+    margin:0 auto;
+}
+ul.menu-Items{
+      display:flex;
+      align-items:center;
+}
+ul.menu-Items li{
+    margin-right:50px;
+
+}
+ul.menu-Items li a{
+    font-size:13px;
+    font-weight:500px;
+    justify-content: space-evenly;
+    color: #fff;
+    white-space:nowrap;
+}
+.Android {
+    width: 20px;
+    color:#128c7e;
+}
+.main i{
+    width: 20;
+}
+.phone{
+    width:250px;
+    margin-left:-250px;
+}
+.main{
+    width:80%;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-around;
+    padding-top:70px;
+}
+
+.main{
+    margin-bottom:10px;
+    margin:0 auto;
+}
+.main p:nth-child(1){
+    font-size:35px;
+    line-height:45px;
+    font-weight:100;
+    padding-bottom: 20px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial; 
+
+}
+.main p:nth-child(2){
+    font-size: 20px;
+    width:75%;
+    line-height:25px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial; 
+    color: #282828;
+}
+.main p:nth-child(3){
+    font-size: 17px;
+    opacity:0.8;
+    padding: 10px ;
+    color: #282828;
+}
+.main li a{
+    display:flex;
+    padding-top:5px;
+    margin-top:5px;;
+    color:#128c7e;
+}
+.box{
+
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap:10px;
+    margin:80px 0 80px 0;
+
+}
+.box1 B{
+    text-align:center;
+    font-size:30px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial; 
+}
+.box1{
+    background-image:url('../Phone2.png'); 
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color:#d0e9ea;
+    height: 750px;
+    text-align: center;
+}
+.box1 h3{
+    color:#1c1e21;
+    font-size:24px;
+    font-weight:100;
+    margin:80px 0 35px 0;
+
+}
+.box1 span{
+   color: #128c7e;
+   cursor: pointer;
+}
+
+.box1 p{
+    width:80%;
+    margin:0 auto ;
+    font-size:20px;
+}
+
+.box2{
+    background: url('../circle.png') no-repeat top center #128c7e ;
+    background-size: 300px;
+    background-color: #EDF8F5;
+    height:750px;
+    display:flex;
+    margin:140;
+}
+.text-area2{
+ width:80%;
+ text-align: center;
+ margin:0 auto;
+ display:flex;
+ flex-direction: column;
+ justify-content:flex-end;
+ padding-bottom: 75px;
+
+}
+.text-area2 p:nth-child(1){
+    font-size:20px;
+    font-weight:500;
+    opacity: 0.5 ;
+    letter-spacing:2px;
+    margin-bottom:20px;
+    letter-spacing:2px;
+    margin-bottom:20px;
+}
+.text-area2 p:nth-child(2){
+    font-size:20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color:#1c1c1c;
+}
+.text-area2 p:nth-child(3){
+font-size:20px;
+margin-bottom:20px;
+}
+.explore{
+    border: #1ebea5 solid 2px;
+    text-align:center;
+    padding:18px 32px;
+    border-radius: 30px;
+    width:300px;
+    margin:0 auto;
+    cursor:pointer;
+    text-transform:uppercase ;
+    color:#1ebea5;
+
+}
+.links{
+    background-color: #273443;
+    margin-top:80px;
+}
+.inner-link{
+    width:90%;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding:50px 90px;
+    color:#ffff;
+}
+.inner-link h4{
+font-size:14px;
+padding-bottom:20px;
+
+}
+.inner-link li{
+    padding-bottom: 10px;
+    font-size:14px;
+}
+.inner-link li:hover{
+    cursor:pointer;
+    text-decoration:underline;
+}
+.main-footer{
+ height:100px;
+ background-color:black;
+ color:#fff;
+ font-size:12px;
+ display:flex;
+ flex-direction:row;
+
+ align-items:center;
+ padding: 20px  50px;
+
+}
+.main-footer p{
+    font-size:12px;
+    margin-left:45px;
+}
+.main-footer a{
+    color:#fff;
+    font-size:20px;
+    margin-left:1000px;
+}
